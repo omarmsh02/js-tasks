@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dom task/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <header>
+            <h1>Dom task</h1>
+        </header>
+        <div class="btn">
+            <button type="button" id="boldBtn" onclick="makeBold()">Bold</button>
+            <button type="button" id="italicBtn" onclick="makeItalic()">Italic</button>
+            <button type="button" id="upperCaseBtn" onclick="makeUpperCase()">Upper Case</button>
+            <button type="button" id="lowerCaseBtn" onclick="makeLowerCase()">Lower Case</button>
+            <button type="button" id="capitalizeBtn" onclick="capitalizeText()">Capitalize</button>
+            <button type="button" id="alignLeftBtn" onclick="alignLeft()">Align Left</button>
+            <button type="button" id="alignCenterBtn" onclick="alignCenter()">Align Center</button>
+            <button type="button" id="alignRightBtn" onclick="alignRight()">Align Right</button>
+            <button type="button" id="textColorBtn" onclick="changeTextColor()">Text Color</button>
+            <button type="button" id="bgColorBtn" onclick="changeBackgroundColor()">Background Color</button>
+            <button type="button" id="clearTextBtn" onclick="clearText()">Clear Text</button>
+            <button type="button" id="fontSizeBtn" onclick="changeFontSize()">Font Size</button>
+            <button type="button" id="fontFamilyBtn" onclick="changeFontFamily()">Font Family</button>
+            <button type="button" id="printTextBtn" onclick="printText()">Print Text</button>
+        </div>
+        <div class="textarea">
+            <div contenteditable="true" id="mytext" style="border: 1px solid #ccc; padding: 10px; width: 50%; height: 400px; margin: 0 auto;"></div>
+        </div>
+        <div id="formattedText"></div>
+    </section>
+    <script src="/dom task/dom.js"></script>
+</body>
+</html>
